@@ -1,0 +1,3 @@
+-r website-summarizer/requirements.txt
+-r pdf-to-farsi/requirements.txt
+nbformat>=5

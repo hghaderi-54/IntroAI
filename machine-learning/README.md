@@ -1,13 +1,10 @@
-# AI Learning Notebooks
+# Machine Learning
 
-Beginner machine learning resources for Hamid, with step-by-step Titanic classification notebooks in English and Farsi.
+Runnable beginner projects with data exploration, cleaning, train/test splits, baseline comparisons, and predictions.
 
-## Start here
+- [Titanic classification — English and Farsi](notebooks/titanic/beginner/README.md): predict survival with LogisticRegression.
+- [Tehran housing regression](notebooks/tehran-housing/Tehran_Housing_Regression.ipynb): predict recorded prices with LinearRegression. [Open in Colab](https://colab.research.google.com/github/hghaderi-54/ai-projects/blob/main/machine-learning/notebooks/tehran-housing/Tehran_Housing_Regression.ipynb).
 
-- [Titanic beginner notebooks and Colab links](notebooks/titanic/beginner/README.md)
-- [Original Titanic lesson notes](notebooks/titanic/reference/titanic_classification_lesson.md)
-- [Tehran housing dataset](datasets/tehran-housing/tehran.csv)
+Run notebook cells in order. Colab has the required libraries. For local Jupyter, install `pandas scikit-learn matplotlib ipykernel`. Kaggle needs Internet enabled for remote data fallback.
 
-The notebooks cover data exploration, X/y, train/test splits, simple cleaning, LogisticRegression, evaluation, and a new-passenger prediction. Run them in Colab, Kaggle, or Jupyter. The Titanic CSV downloads automatically when a local file is unavailable.
-
-The Tehran housing CSV is preserved from the original repository. Its source and reuse terms have not been established here; it is kept as existing learning material.
+The [Tehran data notes](datasets/tehran-housing/README.md) describe provenance limitations. Model performance is reported honestly in each notebook; these projects are educational examples.

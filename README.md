@@ -1,20 +1,19 @@
 # AI Projects
 
-Practical projects in machine learning and AI-assisted text processing.
+Three focused projects: beginner machine learning, website summarization, and English-to-Farsi PDF translation.
 
-## Projects
+## Choose a project
 
-- [Machine Learning](machine-learning/README.md): beginner Titanic classification notebooks in English and Farsi, plus Tehran housing data.
-- [Website Summarizer](website-summarizer/README.md): summarize website content using OpenAI or local Ollama models.
-- [PDF to Farsi](pdf-to-farsi/README.md): translate text-based English PDFs into Farsi.
+- **[Machine Learning](machine-learning/README.md)** — Titanic classification in English/Farsi and Tehran housing regression. Run in Colab, Kaggle, or Jupyter; no API key needed.
+- **[Website Summarizer](website-summarizer/README.md)** — extract a web page and summarize it with OpenAI or Ollama. Includes Markdown export and an extraction-only mode.
+- **[PDF to Farsi](pdf-to-farsi/README.md)** — extract PDF text, translate it in bounded chunks, and export UTF-8 text. Includes a local extraction-only mode.
 
-Each project has its own setup instructions. For Python applications, enter the project's folder before running `uv sync` or installing its `requirements.txt`. The Titanic notebooks can run directly in Colab or Kaggle.
+## Quick start
 
-## Start with Titanic
+For notebooks, follow the links above. For an application, enter its folder and run `uv sync`, then follow its README. Each application has its own dependency lockfile and `.env.example`.
 
-- [English notebook](machine-learning/notebooks/titanic/beginner/Titanic_Classification_Beginner_EN.ipynb) · [Open in Colab](https://colab.research.google.com/github/hghaderi-54/ai-projects/blob/main/machine-learning/notebooks/titanic/beginner/Titanic_Classification_Beginner_EN.ipynb)
-- [دفترچهٔ فارسی](machine-learning/notebooks/titanic/beginner/Titanic_Classification_Beginner_FA.ipynb) · [بازکردن در Colab](https://colab.research.google.com/github/hghaderi-54/ai-projects/blob/main/machine-learning/notebooks/titanic/beginner/Titanic_Classification_Beginner_FA.ipynb)
+## Verification
 
-## Organization
+From this repository's root, install `python -m pip install -r requirements-dev.txt`, then run `python -m unittest discover -s tests -v`. Tests cover extraction, error handling, request formatting, chunking, and notebook structure without paid API calls. GitHub Actions runs these checks for pushes and pull requests.
 
-This repository continues the history of `IntroAI`. The website summarizer and PDF translator were consolidated from their separate repositories, whose original histories are retained in archived repositories.
+API-backed generation requires your own credentials/model access or a running Ollama service. Automated tests use mock model responses and do not claim to assess translation or summarization quality.
