@@ -1,0 +1,12 @@
+[project]
+name = "website-summarizer"
+version = "0.1.0"
+description = "Summarize websites with OpenAI or Ollama."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+    "requests>=2.32"
+]

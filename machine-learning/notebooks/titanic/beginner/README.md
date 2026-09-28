@@ -4,8 +4,8 @@ A step-by-step introduction to machine learning classification for Hamid, availa
 
 ## Choose your language
 
-- **English:** [Notebook](Titanic_Classification_Beginner_EN.ipynb) · [Open in Colab](https://colab.research.google.com/github/hghaderi-54/IntroAI/blob/main/Titanic/beginner/Titanic_Classification_Beginner_EN.ipynb)
-- **فارسی:** [دفترچه](Titanic_Classification_Beginner_FA.ipynb) · [بازکردن در Colab](https://colab.research.google.com/github/hghaderi-54/IntroAI/blob/main/Titanic/beginner/Titanic_Classification_Beginner_FA.ipynb)
+- **English:** [Notebook](Titanic_Classification_Beginner_EN.ipynb) · [Open in Colab](https://colab.research.google.com/github/hghaderi-54/ai-projects/blob/main/machine-learning/notebooks/titanic/beginner/Titanic_Classification_Beginner_EN.ipynb)
+- **فارسی:** [دفترچه](Titanic_Classification_Beginner_FA.ipynb) · [بازکردن در Colab](https://colab.research.google.com/github/hghaderi-54/ai-projects/blob/main/machine-learning/notebooks/titanic/beginner/Titanic_Classification_Beginner_FA.ipynb)
 
 ## Run the notebook
 
